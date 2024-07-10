@@ -32,7 +32,7 @@ Updated Date : 2024-07-10
 
 보상(Reward) : 상응하는 스칼라 단위의 보상이 주어짐.
 
-### RL 기본 개념
+## RL 기본 개념
 
 RL : 지각 - 행동 - 학습
 
@@ -42,12 +42,10 @@ RL : 지각 - 행동 - 학습
 
 지각(쓰레기 위치 추적, State) - 행동(쓰레기 줍기, Action) - 학습(적절한 행동을 하였는지 reward를 통하여 확인 및 정책 학습)
 
+### RL 문제
+Markov decision process : MDP - 마르코프 결정과정 
 
 
-
-`gitlab-ci-pipelines-exporter` allows you to monitor your [GitLab CI pipelines](https://docs.gitlab.com/ee/ci/pipelines/) with [Prometheus](https://prometheus.io/) or any monitoring solution supporting the [OpenMetrics](https://github.com/OpenObservability/OpenMetrics) format.
-
-You can find more information [on GitLab docs](https://docs.gitlab.com/ee/ci/pipelines/pipeline_efficiency.html#pipeline-monitoring) about how it takes part improving your pipeline efficiency.
 
 ## TL:DR
 
