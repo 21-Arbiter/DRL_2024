@@ -1,8 +1,5 @@
 # 🦊 DeepReinforcement Learning - 2024
 
-Author : JaeminSong
-Updated Date : 2024-07-10
-
 [![PkgGoDev](https://pkg.go.dev/badge/github.com/mvisonneau/gitlab-ci-pipelines-exporter)](https://pkg.go.dev/mod/github.com/mvisonneau/gitlab-ci-pipelines-exporter)
 [![Go Report Card](https://goreportcard.com/badge/github.com/mvisonneau/gitlab-ci-pipelines-exporter)](https://goreportcard.com/report/github.com/mvisonneau/gitlab-ci-pipelines-exporter)
 [![Docker Pulls](https://img.shields.io/docker/pulls/mvisonneau/gitlab-ci-pipelines-exporter.svg)](https://hub.docker.com/r/mvisonneau/gitlab-ci-pipelines-exporter/)
@@ -10,6 +7,12 @@ Updated Date : 2024-07-10
 [![Coverage Status](https://coveralls.io/repos/github/mvisonneau/gitlab-ci-pipelines-exporter/badge.svg?branch=main)](https://coveralls.io/github/mvisonneau/gitlab-ci-pipelines-exporter?branch=main)
 [![release](https://github.com/mvisonneau/gitlab-ci-pipelines-exporter/actions/workflows/release.yml/badge.svg)](https://github.com/mvisonneau/gitlab-ci-pipelines-exporter/actions/workflows/release.yml)
 [![gitlab-ci-pipelines-exporter](https://snapcraft.io/gitlab-ci-pipelines-exporter/badge.svg)](https://snapcraft.io/gitlab-ci-pipelines-exporter)
+
+Author : JaeminSong
+Updated Date : 2024-07-10
+
+### 프로젝트의 주요 기능과 목적
+1. 심층 강화 학습 공부
 
 `gitlab-ci-pipelines-exporter` allows you to monitor your [GitLab CI pipelines](https://docs.gitlab.com/ee/ci/pipelines/) with [Prometheus](https://prometheus.io/) or any monitoring solution supporting the [OpenMetrics](https://github.com/OpenObservability/OpenMetrics) format.
 
