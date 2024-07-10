@@ -9,10 +9,41 @@
 [![gitlab-ci-pipelines-exporter](https://snapcraft.io/gitlab-ci-pipelines-exporter/badge.svg)](https://snapcraft.io/gitlab-ci-pipelines-exporter)
 
 Author : JaeminSong
+
 Updated Date : 2024-07-10
 
 ### 프로젝트의 주요 기능과 목적
+
 1. 심층 강화 학습 공부
+
+### 심층 강화 학습
+
+1. 강화 학습(Reinforcement Learning : RL)
+
+- 의사 결정을 하는 에이전트가 사용하는 프레임워크
+
+에이전트의 주 목표 : 상태가 주어지면 어떤 행동을 취할지 결정하는 정책을 학습하여 누적된 미래 보상을 최대화 하도록 함.
+
+환경(Environment) : 에이전트가 존재하는 곳
+
+상태(State) : 환경은 부분적 또는 완전히 관찰 가능한 상태를 가짐.
+
+행동(Action) : 에이전트는 환경과 상호작용하는데 사용할 수 있는 행동 셋을 가짐(행동의 결과 = 새로운 상태 변환)
+
+보상(Reward) : 상응하는 스칼라 단위의 보상이 주어짐.
+
+### RL 기본 개념
+
+RL : 지각 - 행동 - 학습
+
+예시 : 
+
+에이전트의 주 목표 : 쓰레기를 수집하는 자동 로봇
+
+지각(쓰레기 위치 추적, State) - 행동(쓰레기 줍기, Action) - 학습(적절한 행동을 하였는지 reward를 통하여 확인 및 정책 학습)
+
+
+
 
 `gitlab-ci-pipelines-exporter` allows you to monitor your [GitLab CI pipelines](https://docs.gitlab.com/ee/ci/pipelines/) with [Prometheus](https://prometheus.io/) or any monitoring solution supporting the [OpenMetrics](https://github.com/OpenObservability/OpenMetrics) format.
 
